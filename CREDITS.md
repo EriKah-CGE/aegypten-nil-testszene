@@ -8,7 +8,6 @@ Epoche der Szene: Altes Reich, um 2500 v. Chr., Bauerndorf am Nil (Regeln in `CL
 | Titel | Verwendung | Urheber | Link | Lizenz | Epochenprüfung |
 |---|---|---|---|---|---|
 | Realistic HD Date palm (13/78) | Dattelpalmen: Wedel, Dattelrispen, Stamm- und Kronentextur (als Blattkarten neu zusammengesetzt) | PlantCatalog | https://sketchfab.com/3d-models/f59f6acc24bd42e5a5d59fc0a5ec686b | CC BY 4.0 | Echte Dattelpalme (Phoenix dactylifera) mit hängenden Dattelrispen; im Alten Ägypten verbreitet und auf der Erlaubt-Liste. |
-| Realistic HD French tamarisk (11/20) | Tamarisken-Büsche | PlantCatalog | https://sketchfab.com/3d-models/4a9766bf04cb4901a750d1ee8c0ae41d | CC BY 4.0 | Tamariske (Gattung Tamarix) wächst am Nil und steht auf der Erlaubt-Liste; ohne Blüten, keine Gegenstände. |
 | Acacia tree | Akazien (nah vollständig, fern vereinfacht) | evolveduk | https://sketchfab.com/3d-models/acacia-tree-bb14c2bb679b4d0bb1c578a27e2ddabf | CC BY 4.0 | Schirmakazie (Gattung Acacia/Vachellia), im Niltal heimisch und auf der Erlaubt-Liste; reiner Baum ohne Gegenstände. |
 | Wheat – FREE | Ähren für die Emmer-Bildtafeln (Felder) | Yaroslav Karas | https://sketchfab.com/3d-models/wheat-free-ddff74ac0661414a9478bd4d7581c854 | CC BY 4.0 | Begrannte Weizenähren; Emmer ist eine begrannte Weizenart und auf der Erlaubt-Liste. Verwendet nur als Ähren auf selbst gebauten Halmen. |
 | Grass Medium 02 | Grasbüschel (als Bildtafeln gerendert) | Rico Cilliers | https://polyhaven.com/a/grass_medium_02 | CC0 | Gewöhnliches Wildgras ohne erkennbare Art, keine Blüten, keine Gegenstände; zeitlos. |
@@ -26,6 +25,8 @@ Epoche der Szene: Altes Reich, um 2500 v. Chr., Bauerndorf am Nil (Regeln in `CL
 
 ## Selbst erzeugt
 
+Die Nil-Tamariske ist aus selbst gezeichneten Zweigkarten gebaut (`tools/kulisse_texturen.py`, ersetzt das frühere
+Modell „French tamarisk“ von PlantCatalog), ebenso die fernen Getreidefelder (Feldseite, Feldoberseite).
 Papyrus (dreikantiger, blattloser Stängel mit Dolde) und Schilfrohr (Halme, Blätter, Rispe) sind in Blender
 nachgebildet und auf Blattkarten gerendert, weil auf Sketchfab und Poly Haven kein passendes Modell zu finden war
 (`blender/scripts/pflanzen_karten.py`). Alle übrigen Modelle und Texturen entstehen per Skript in diesem Projekt

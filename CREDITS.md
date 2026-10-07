@@ -1,0 +1,33 @@
+# Fremde Modelle, Texturen und Himmel
+
+Alles, was nicht in diesem Projekt selbst erzeugt wurde. Sketchfab-Modelle nur mit CC0 oder CC BY.
+Epoche der Szene: Altes Reich, um 2500 v. Chr., Bauerndorf am Nil (Regeln in `CLAUDE.md`).
+
+## Modelle
+
+| Titel | Verwendung | Urheber | Link | Lizenz | Epochenprüfung |
+|---|---|---|---|---|---|
+| Realistic HD Date palm (13/78) | Dattelpalmen: Wedel, Dattelrispen, Stamm- und Kronentextur (als Blattkarten neu zusammengesetzt) | PlantCatalog | https://sketchfab.com/3d-models/f59f6acc24bd42e5a5d59fc0a5ec686b | CC BY 4.0 | Echte Dattelpalme (Phoenix dactylifera) mit hängenden Dattelrispen; im Alten Ägypten verbreitet und auf der Erlaubt-Liste. |
+| Realistic HD French tamarisk (11/20) | Tamarisken-Büsche | PlantCatalog | https://sketchfab.com/3d-models/4a9766bf04cb4901a750d1ee8c0ae41d | CC BY 4.0 | Tamariske (Gattung Tamarix) wächst am Nil und steht auf der Erlaubt-Liste; ohne Blüten, keine Gegenstände. |
+| Acacia tree | Akazien (nah vollständig, fern vereinfacht) | evolveduk | https://sketchfab.com/3d-models/acacia-tree-bb14c2bb679b4d0bb1c578a27e2ddabf | CC BY 4.0 | Schirmakazie (Gattung Acacia/Vachellia), im Niltal heimisch und auf der Erlaubt-Liste; reiner Baum ohne Gegenstände. |
+| Wheat – FREE | Ähren für die Emmer-Bildtafeln (Felder) | Yaroslav Karas | https://sketchfab.com/3d-models/wheat-free-ddff74ac0661414a9478bd4d7581c854 | CC BY 4.0 | Begrannte Weizenähren; Emmer ist eine begrannte Weizenart und auf der Erlaubt-Liste. Verwendet nur als Ähren auf selbst gebauten Halmen. |
+| Grass Medium 02 | Grasbüschel (als Bildtafeln gerendert) | Rico Cilliers | https://polyhaven.com/a/grass_medium_02 | CC0 | Gewöhnliches Wildgras ohne erkennbare Art, keine Blüten, keine Gegenstände; zeitlos. |
+
+## Texturen und Himmel
+
+| Titel | Verwendung | Urheber | Link | Lizenz | Epochenprüfung |
+|---|---|---|---|---|---|
+| Quarry 01 (Pure Sky) | Himmel (HDRI) | Jarod Guest, Sergej Majboroda | https://polyhaven.com/a/quarry_01_puresky | CC0 | Reiner Himmel ohne Landschaft, Bauwerke oder Gegenstände; zeitlos. |
+| Marble Cliff 03 | Fels der fernen Wüstenhänge | Amal Kumar | https://polyhaven.com/a/marble_cliff_03 | CC0 | Natürlicher geschichteter Fels, nur als Oberfläche; zeitlos. |
+| Sand 01 | Boden: Wüstensand (einziger rot-gelber Boden) | Rob Tuytel | https://polyhaven.com/a/sand_01 | CC0 | Natürlicher, festgetretener Sand; keine Spuren von Rädern oder Gegenständen. |
+| Mud Cracked Dry Riverbed 002 | Boden: rissiger Schlamm in Senken, am Kanal und am Ufer, graubraun umgefärbt | Poly Haven | https://polyhaven.com/a/mud_cracked_dry_riverbed_002 | CC0 | Rissiger, getrockneter Flussschlamm ohne Spuren oder Gegenstände; zeitlos. |
+| Dry Mud Field 001 | Boden: festgetretene, staubige Erde (Hof, Wege, Dämme), graubraun umgefärbt | Rico Cilliers, Rob Tuytel | https://polyhaven.com/a/dry_mud_field_001 | CC0 | Trockene, festgetretene Erde. Die Beschreibung nennt „subtle track marks“; in der verwendeten Kachelgröße sind keine Rad- oder Reifenspuren erkennbar. |
+| Farm Soil | Boden: Ackerboden im Feld; auch Grundlage der selbst gemalten Stoppeltextur | Amal Kumar | https://polyhaven.com/a/farm_soil | CC0 | Krümelige, dunkle Erde wie Nilschlamm auf dem Feld; zeitlos. |
+
+## Selbst erzeugt
+
+Papyrus (dreikantiger, blattloser Stängel mit Dolde) und Schilfrohr (Halme, Blätter, Rispe) sind in Blender
+nachgebildet und auf Blattkarten gerendert, weil auf Sketchfab und Poly Haven kein passendes Modell zu finden war
+(`blender/scripts/pflanzen_karten.py`). Alle übrigen Modelle und Texturen entstehen per Skript in diesem Projekt
+(`blender/scripts/build_scene.py`, `blender/scripts/pflanzen.py`, `tools/make_textures.py`,
+`tools/requisiten_texturen.py`: Ton, Garbenhalme, Ähren, Papyrusbündel des Boots, Seil, Fischernetz).

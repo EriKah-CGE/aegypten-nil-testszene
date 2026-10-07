@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Am Nil" />
+    <title>Am Ufer des Nils</title>
+    <script type="module" crossorigin src="./assets/index-CwShoTUq.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/math.scalar.functions-D-i-XBaP.js">
+    <link rel="modulepreload" crossorigin href="./assets/engineStore-Bn2tApal.js">
+    <link rel="modulepreload" crossorigin href="./assets/internalTexture-B3djGrls.js">
+    <link rel="modulepreload" crossorigin href="./assets/logger-CuBYPcDK.js">
+    <link rel="modulepreload" crossorigin href="./assets/shaderStore-D-XQlhUT.js">
+    <link rel="modulepreload" crossorigin href="./assets/domManagement-BqltO0ki.js">
+    <link rel="modulepreload" crossorigin href="./assets/tools.functions-Bxv5dhZ_.js">
+    <link rel="modulepreload" crossorigin href="./assets/performanceConfigurator-UtxC_Odd.js">
+    <link rel="modulepreload" crossorigin href="./assets/abstractEngine.pure-GFfF0Gg8.js">
+    <link rel="modulepreload" crossorigin href="./assets/thinEngine.pure-CCb3IUSx.js">
+    <link rel="modulepreload" crossorigin href="./assets/typeStore-Cu_sj2zM.js">
+    <link rel="modulepreload" crossorigin href="./assets/guid-BXdVC_j_.js">
+    <link rel="modulepreload" crossorigin href="./assets/halfFloat-Ce77JD5z.js">
+    <link rel="modulepreload" crossorigin href="./assets/tools.pure-Ddq-wXbO.js">
+    <link rel="modulepreload" crossorigin href="./assets/buffer.pure-BaVhPpFr.js">
+    <link rel="modulepreload" crossorigin href="./assets/math.color.pure-CBy3fG9c.js">
+    <link rel="modulepreload" crossorigin href="./assets/math.plane-lJga2bKj.js">
+    <link rel="modulepreload" crossorigin href="./assets/math.size-BHZaDYSv.js">
+    <link rel="modulepreload" crossorigin href="./assets/drawWrapper-BYb2hZGS.js">
+    <link rel="modulepreload" crossorigin href="./assets/effectRenderer.pure-BJEFxyec.js">
+    <link rel="modulepreload" crossorigin href="./assets/decorators-C_ra_8EP.js">
+    <link rel="modulepreload" crossorigin href="./assets/decorators.serialization-CHL9vZQy.js">
+    <link rel="modulepreload" crossorigin href="./assets/baseTexture.pure-BUC9e78D.js">
+    <link rel="modulepreload" crossorigin href="./assets/smartArray-BRfcgNbX.js">
+    <link rel="modulepreload" crossorigin href="./assets/lightConstants-C5cH11j_.js">
+    <link rel="modulepreload" crossorigin href="./assets/sceneComponent-B6RxfvJm.js">
+    <link rel="modulepreload" crossorigin href="./assets/texture.pure-P2rHgPY0.js">
+    <link rel="modulepreload" crossorigin href="./assets/renderTargetTexture.pure-jY_KOOg_.js">
+    <link rel="modulepreload" crossorigin href="./assets/postProcess.pure-UEPk4YSd.js">
+    <link rel="modulepreload" crossorigin href="./assets/material.pure-H3g7htgL.js">
+    <link rel="modulepreload" crossorigin href="./assets/flowGraphInteger.pure-CZmJgkLp.js">
+    <link rel="modulepreload" crossorigin href="./assets/flowGraphBlock-BvwcdF01.js">
+    <link rel="modulepreload" crossorigin href="./assets/flowGraphExecutionBlock-CdaAygpB.js">
+    <link rel="modulepreload" crossorigin href="./assets/flowGraphExecutionBlockWithOutSignal-BKl2wNQa.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-neoVIonx.css">
+  </head>
+  <body>
+    <canvas id="szene"></canvas>
+
+    <div id="start" class="overlay">
+      <div class="karte">
+        <h1>Am Ufer des Nils</h1>
+        <p class="unter">Testszene für Optik und Leistung</p>
+        <button id="startknopf" disabled>Lade …</button>
+        <p class="hinweis">
+          Links: Joystick zum Laufen. Rechts: Wischen zum Umsehen.<br />
+          Am Computer: W A S D zum Laufen, Klick und Maus zum Umsehen.
+        </p>
+      </div>
+    </div>
+
+    <div id="joy-basis"><div id="joy-knopf"></div></div>
+    <button id="testknopf" hidden>Testanzeige</button>
+    <div id="testanzeige" hidden>
+      <div id="testwerte"></div>
+      <button id="schalter-nach" type="button">Nachbearbeitung: an</button>
+      <button id="schalter-spiegel" type="button">Spiegelung: an</button>
+    </div>
+
+    <div id="hochformat" class="overlay">Bitte das iPad quer halten.</div>
+
+    <div id="kontextverlust" class="overlay" hidden>
+      <div class="karte">
+        <p>Bitte Seite neu laden</p>
+        <button onclick="location.reload()">Neu laden</button>
+      </div>
+    </div>
+
+  </body>
+</html>

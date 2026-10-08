@@ -38,6 +38,10 @@ Die Zeitdrohne („Heute wissen wir“) ist selbst in Blender gebaut und als Bil
 Epochenprüfung: bewusst ein Gerät der Gegenwart, das nur am Bildrand erscheint und nie im Dorf; es steht für die
 Ebene „Heute wissen wir“.
 
+Dreschplatz (selbst gebaut, `dorf.py`): zwei kurze Worfelkellen aus hellem Holz und eine Holzgabel mit drei Zinken.
+Epochenprüfung: Worfelkellen (paarweise benutzte Holzschaufeln) und Holzgabeln sind in Grabbildern des Alten Reichs beim
+Dreschen und Worfeln dargestellt; kein Metall. Reibstein und Läufer aus Granit (selbst erzeugte Textur).
+
 Fundstücke „Heute wissen wir“ (selbst gebaut, `build_scene.py`): zwei geflochtene Körbe mit Nilerde und Wüstensand,
 Holzpfahl mit eingeritzten Flutmarken, Fußgängerbrücke über den Kanal aus zwei Baumstämmen mit Querbohlen
 (Holz, ohne Metall und Geländer). Epochenprüfung: Körbe erlaubt; die Flutstände wurden im Alten Reich Jahr für Jahr

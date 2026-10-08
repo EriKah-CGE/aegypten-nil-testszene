@@ -7,8 +7,8 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Am Nil" />
-    <title>Am Ufer des Nils</title>
-    <script type="module" crossorigin src="./assets/index-BiUBkt1V.js"></script>
+    <title>Ein Geschenk des Nils</title>
+    <script type="module" crossorigin src="./assets/index-D2IABXaG.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/math.scalar.functions-D-i-XBaP.js">
     <link rel="modulepreload" crossorigin href="./assets/engineStore-Bn2tApal.js">
     <link rel="modulepreload" crossorigin href="./assets/internalTexture-B3djGrls.js">
@@ -38,27 +38,38 @@
     <link rel="modulepreload" crossorigin href="./assets/texture.pure-P2rHgPY0.js">
     <link rel="modulepreload" crossorigin href="./assets/renderTargetTexture.pure-jY_KOOg_.js">
     <link rel="modulepreload" crossorigin href="./assets/postProcess.pure-UEPk4YSd.js">
-    <link rel="modulepreload" crossorigin href="./assets/material.pure-H3g7htgL.js">
+    <link rel="modulepreload" crossorigin href="./assets/material.pure-Dbd6BouD.js">
     <link rel="modulepreload" crossorigin href="./assets/flowGraphInteger.pure-CZmJgkLp.js">
     <link rel="modulepreload" crossorigin href="./assets/flowGraphBlock-BvwcdF01.js">
     <link rel="modulepreload" crossorigin href="./assets/flowGraphExecutionBlock-CdaAygpB.js">
     <link rel="modulepreload" crossorigin href="./assets/flowGraphExecutionBlockWithOutSignal-BKl2wNQa.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-Dv7sc9TG.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-DFljIuUL.css">
   </head>
   <body>
     <canvas id="szene"></canvas>
 
     <div id="start" class="overlay">
       <div class="karte">
-        <h1>Am Ufer des Nils</h1>
-        <p class="unter">Testszene für Optik und Leistung</p>
-        <button id="startknopf" disabled>Lade …</button>
+        <h1>Ein Geschenk des Nils</h1>
+        <p class="unter">Kapitel 1: Rundgang durch ein Dorf am Nil</p>
+        <p id="startstand" class="startstand" hidden></p>
+        <div class="startknoepfe">
+          <button id="startknopf" disabled>Lade …</button>
+          <button id="neuknopf" class="nebenknopf" hidden>Neu beginnen</button>
+        </div>
+        <div id="neufrage" class="neufrage" hidden>
+          <p>Alles löschen und von vorn beginnen?</p>
+          <button id="neu-ja" class="nebenknopf">Ja, neu beginnen</button>
+          <button id="neu-nein" class="nebenknopf">Nein</button>
+        </div>
         <p class="hinweis">
           Links: Joystick zum Laufen. Rechts: Wischen zum Umsehen.<br />
           Am Computer: W A S D zum Laufen, Klick und Maus zum Umsehen.
         </p>
       </div>
     </div>
+
+    <div id="ui" hidden></div>
 
     <div id="joy-basis"><div id="joy-knopf"></div></div>
     <button id="testknopf" hidden>Testanzeige</button>

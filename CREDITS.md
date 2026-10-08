@@ -32,8 +32,14 @@ Drehmühle), Netz aus Pflanzenfaser mit Steingewichten; alles im Alten Reich bel
 | Brauen „eyebrow001“, „eyebrow006“, „eyebrow010“, Augen „low-poly“/„brown“ | Gesichter | MakeHuman-Team | wie oben | CC0 | Natürliche Brauen und braune Augen; zeitlos. |
 
 
-Die Zeitdrohne („Heute wissen wir“) ist selbst gezeichnet (SVG in `src/drohne.ts`). Epochenprüfung: bewusst ein Gerät
-der Gegenwart, das nur am Bildrand erscheint und nie im Dorf; es steht für die Ebene „Heute wissen wir“.
+Die Zeitdrohne („Heute wissen wir“) ist selbst in Blender gebaut und als Bild gerendert (`blender/figuren/drohne.blend`).
+Epochenprüfung: bewusst ein Gerät der Gegenwart, das nur am Bildrand erscheint und nie im Dorf; es steht für die
+Ebene „Heute wissen wir“.
+
+Fundstücke „Heute wissen wir“ (selbst gebaut, `build_scene.py`): zwei geflochtene Körbe mit Nilerde und Wüstensand,
+Holzpfahl mit eingeritzten Flutmarken. Epochenprüfung: Körbe erlaubt; die Flutstände wurden im Alten Reich Jahr für Jahr
+festgehalten (Annalen, Palermostein), ein einfacher Holzpfahl ist eine vorsichtige Darstellung (die steinernen
+Nilmesser sind jünger).
 
 Nicht verwendet: das Zusatzpaket „faceunits01“ (Gesichtsformen), weil auf seiner Seite keine Lizenz angegeben ist.
 Das Blinzeln ist selbst gebaut.

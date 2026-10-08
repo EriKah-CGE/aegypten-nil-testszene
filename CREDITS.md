@@ -16,7 +16,10 @@ Epoche der Szene: Altes Reich, um 2500 v. Chr., Bauerndorf am Nil (Regeln in `CL
 
 Werkzeug: MPFB 2.0.17 (MakeHuman für Blender, GPL; das Werkzeug wird nicht weitergegeben, erzeugte Figuren sind frei).
 Grundpaket „makehuman_system_assets“, https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html.
-Kleidung (Schurz, Gürtel) und Gegenstände (Sichel) sind selbst gebaut (`blender/scripts/figuren.py`).
+Kleidung (Schurz, Gürtel, Kleid mit Trägern) und Gegenstände (Holzsichel mit Feuersteinzähnen, Läuferstein des
+Reibsteins in Nebets Händen, zusammengerafftes Fischernetz aus Pflanzenfaser mit Senksteinen in Idus Hand) sind selbst
+gebaut (`blender/scripts/figuren.py`). Epochenprüfung: Sichel aus Holz und Feuerstein, Reibstein mit Läufer (keine
+Drehmühle), Netz aus Pflanzenfaser mit Steingewichten; alles im Alten Reich belegt, kein Metall.
 
 | Titel | Verwendung | Urheber | Link | Lizenz | Epochenprüfung |
 |---|---|---|---|---|---|

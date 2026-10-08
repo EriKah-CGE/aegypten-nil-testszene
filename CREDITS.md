@@ -31,6 +31,8 @@ Drehmühle), Netz aus Pflanzenfaser mit Steingewichten; alles im Alten Reich bel
 | Haar „long01“ | Nebets Haar, auf Schulterlänge gerade abgeschnitten | MakeHuman-Team | wie oben | CC0 | Glattes Haar mit Mittelscheitel; gekürzt entspricht es Frauendarstellungen des Alten Reichs. |
 | Brauen „eyebrow001“, „eyebrow006“, „eyebrow010“, Augen „low-poly“/„brown“ | Gesichter | MakeHuman-Team | wie oben | CC0 | Natürliche Brauen und braune Augen; zeitlos. |
 
+| Kleidung „female_elegantsuit01“, Haar „ponytail01“, Haut „middleage_asian_female“ | Erzählerin „Heute wissen wir“ (nur als gerendertes Porträt in der Oberfläche, `public/bilder/erzaehlerin.webp`; Brille selbst gebaut) | MakeHuman-Team | wie oben | CC0 | Bewusst eine Frau aus der Gegenwart (Bluse, Brille, graues Haar): Sie steht für das heutige Wissen und erscheint nie im Dorf, nur am Bildrand. |
+
 Nicht verwendet: das Zusatzpaket „faceunits01“ (Gesichtsformen), weil auf seiner Seite keine Lizenz angegeben ist.
 Das Blinzeln ist selbst gebaut.
 

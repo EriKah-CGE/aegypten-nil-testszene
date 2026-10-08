@@ -22,8 +22,14 @@ Kleidung (Schurz, Gürtel) und Gegenstände (Sichel) sind selbst gebaut (`blende
 |---|---|---|---|---|---|
 | MakeHuman-Grundkörper (Basemesh) mit Skelett „game_engine“ | Körper und Skelett aller Figuren (ausgedünnt) | MakeHuman-Team (Data Collection AB) | https://www.makehumancommunity.org | CC0 | Neutraler menschlicher Körper ohne Kleidung oder Schmuck; Körperbau, Alter und Hautfarbe eingestellt. |
 | Haut „middleage_african_male“ | Haut von Kai (etwas aufgehellt und wärmer) | MakeHuman-Team | wie oben | CC0 | Braune Haut ohne Tätowierung oder Schmuck; passt zur Regel „Hautfarbe braun“. |
-| Haar „short02“ | Kais kurzes Haar (dunkel eingefärbt) | MakeHuman-Team | wie oben | CC0 | Kurzes, ungeordnetes Haar ohne Frisurmode der Neuzeit; zu dunkelbraun-schwarz umgefärbt. |
-| Brauen „eyebrow010“, Augen „low-poly“/„brown“ | Gesicht | MakeHuman-Team | wie oben | CC0 | Natürliche Brauen und braune Augen; zeitlos. |
+| Haut „middleage_african_female“ | Haut von Nebet (etwas aufgehellt und wärmer) | MakeHuman-Team | wie oben | CC0 | Braune Haut ohne Tätowierung oder Schmuck. |
+| Haut „old_african_male“ | Haut von Idu (älterer Mann, Falten) | MakeHuman-Team | wie oben | CC0 | Braune, faltige Haut ohne Schmuck. |
+| Haar „short02“ | kurzes Haar von Kai (dunkel) und Idu (dunkel mit grauen Strähnen) | MakeHuman-Team | wie oben | CC0 | Kurzes, ungeordnetes Haar ohne Frisurmode der Neuzeit; umgefärbt. |
+| Haar „long01“ | Nebets Haar, auf Schulterlänge gerade abgeschnitten | MakeHuman-Team | wie oben | CC0 | Glattes Haar mit Mittelscheitel; gekürzt entspricht es Frauendarstellungen des Alten Reichs. |
+| Brauen „eyebrow001“, „eyebrow006“, „eyebrow010“, Augen „low-poly“/„brown“ | Gesichter | MakeHuman-Team | wie oben | CC0 | Natürliche Brauen und braune Augen; zeitlos. |
+
+Nicht verwendet: das Zusatzpaket „faceunits01“ (Gesichtsformen), weil auf seiner Seite keine Lizenz angegeben ist.
+Das Blinzeln ist selbst gebaut.
 
 ## Texturen und Himmel
 

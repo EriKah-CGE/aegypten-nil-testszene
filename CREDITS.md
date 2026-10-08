@@ -12,6 +12,19 @@ Epoche der Szene: Altes Reich, um 2500 v. Chr., Bauerndorf am Nil (Regeln in `CL
 | Wheat – FREE | Ähren für die Emmer-Bildtafeln (Felder) | Yaroslav Karas | https://sketchfab.com/3d-models/wheat-free-ddff74ac0661414a9478bd4d7581c854 | CC BY 4.0 | Begrannte Weizenähren; Emmer ist eine begrannte Weizenart und auf der Erlaubt-Liste. Verwendet nur als Ähren auf selbst gebauten Halmen. |
 | Grass Medium 02 | Grasbüschel (als Bildtafeln gerendert) | Rico Cilliers | https://polyhaven.com/a/grass_medium_02 | CC0 | Gewöhnliches Wildgras ohne erkennbare Art, keine Blüten, keine Gegenstände; zeitlos. |
 
+## Figuren (MakeHuman / MPFB)
+
+Werkzeug: MPFB 2.0.17 (MakeHuman für Blender, GPL; das Werkzeug wird nicht weitergegeben, erzeugte Figuren sind frei).
+Grundpaket „makehuman_system_assets“, https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html.
+Kleidung (Schurz, Gürtel) und Gegenstände (Sichel) sind selbst gebaut (`blender/scripts/figuren.py`).
+
+| Titel | Verwendung | Urheber | Link | Lizenz | Epochenprüfung |
+|---|---|---|---|---|---|
+| MakeHuman-Grundkörper (Basemesh) mit Skelett „game_engine“ | Körper und Skelett aller Figuren (ausgedünnt) | MakeHuman-Team (Data Collection AB) | https://www.makehumancommunity.org | CC0 | Neutraler menschlicher Körper ohne Kleidung oder Schmuck; Körperbau, Alter und Hautfarbe eingestellt. |
+| Haut „middleage_african_male“ | Haut von Kai (etwas aufgehellt und wärmer) | MakeHuman-Team | wie oben | CC0 | Braune Haut ohne Tätowierung oder Schmuck; passt zur Regel „Hautfarbe braun“. |
+| Haar „short02“ | Kais kurzes Haar (dunkel eingefärbt) | MakeHuman-Team | wie oben | CC0 | Kurzes, ungeordnetes Haar ohne Frisurmode der Neuzeit; zu dunkelbraun-schwarz umgefärbt. |
+| Brauen „eyebrow010“, Augen „low-poly“/„brown“ | Gesicht | MakeHuman-Team | wie oben | CC0 | Natürliche Brauen und braune Augen; zeitlos. |
+
 ## Texturen und Himmel
 
 | Titel | Verwendung | Urheber | Link | Lizenz | Epochenprüfung |

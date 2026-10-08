@@ -39,7 +39,8 @@ Epochenprüfung: bewusst ein Gerät der Gegenwart, das nur am Bildrand erscheint
 Ebene „Heute wissen wir“.
 
 Fundstücke „Heute wissen wir“ (selbst gebaut, `build_scene.py`): zwei geflochtene Körbe mit Nilerde und Wüstensand,
-Holzpfahl mit eingeritzten Flutmarken. Epochenprüfung: Körbe erlaubt; die Flutstände wurden im Alten Reich Jahr für Jahr
+Holzpfahl mit eingeritzten Flutmarken, Fußgängerbrücke über den Kanal aus zwei Baumstämmen mit Querbohlen
+(Holz, ohne Metall und Geländer). Epochenprüfung: Körbe erlaubt; die Flutstände wurden im Alten Reich Jahr für Jahr
 festgehalten (Annalen, Palermostein), ein einfacher Holzpfahl ist eine vorsichtige Darstellung (die steinernen
 Nilmesser sind jünger).
 

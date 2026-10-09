@@ -12,6 +12,7 @@ Epoche der Szene: Altes Reich, um 2500 v. Chr., Bauerndorf am Nil (Regeln in `CL
 | Wheat – FREE | Ähren für die Emmer-Bildtafeln (Felder) | Yaroslav Karas | https://sketchfab.com/3d-models/wheat-free-ddff74ac0661414a9478bd4d7581c854 | CC BY 4.0 | Begrannte Weizenähren; Emmer ist eine begrannte Weizenart und auf der Erlaubt-Liste. Verwendet nur als Ähren auf selbst gebauten Halmen. |
 | Animated Realistic Goat – 3D Animal Model | zwei Ziegen im Pferch (Bewegung „idle“, Farbe in einen Atlas 1024 px gebacken) | AnimalMesh 3D | https://sketchfab.com/3d-models/animated-realistic-goat-3d-animal-model-e31e71adf1ee44bfbef6495b6d3e5462 | CC BY 4.0 | Hausziege mit kurzem Fell, ohne Halsband oder Glocke; Ziegen sind im Alten Reich belegt und auf der Erlaubt-Liste. |
 | Animated Realistic Donkey – 3D Animal Model | Esel im Pferch (Bewegungen „grazing“ und „idle“, Atlas 1024 px) | AnimalMesh 3D | https://sketchfab.com/3d-models/animated-realistic-donkey-3d-animal-model-32ce1c2f276a4e27bb26b8bb99439bb7 | CC BY 4.0 | Grauer Hausesel ohne Sattel und Zaumzeug (die Variante mit modernem Sattel wurde nicht genommen); Esel sind im Alten Reich das wichtigste Lasttier und auf der Erlaubt-Liste. |
+| Double Ox walk | zwei Rinder am Pflug (Jahreszeit Peret): EIN Rind übernommen, zweimal aufgestellt; feste Standhaltung aus der Laufbewegung, eigenes kleines Skelett (Kopf und Schwanz bewegen sich), Atlas 1024 px, 8.500 Dreiecke (`blender/scripts/rinder.py`) | Bazsi1986 | https://sketchfab.com/3d-models/double-ox-walk-5692c6029ceb48e692c009cc5401865e | CC BY 4.0 | Langhörnige Rinder ohne Höcker mit leierförmigen Hörnern, wie auf Grabbildern des Alten Reichs; das moderne Geschirr des Modells (Rahmenjoch, schwarze Riemen, Metallring, Schnallen, Schäkel, Kette und alle Metallteile) ist vollständig entfernt. Das Hornjoch ist selbst gebaut (siehe unten). |
 | Grass Medium 02 | Grasbüschel (als Bildtafeln gerendert) | Rico Cilliers | https://polyhaven.com/a/grass_medium_02 | CC0 | Gewöhnliches Wildgras ohne erkennbare Art, keine Blüten, keine Gegenstände; zeitlos. |
 
 ## Figuren (MakeHuman / MPFB)
@@ -41,6 +42,12 @@ Ebene „Heute wissen wir“.
 Dreschplatz (selbst gebaut, `dorf.py`): zwei kurze Worfelkellen aus hellem Holz und eine Holzgabel mit drei Zinken.
 Epochenprüfung: Worfelkellen (paarweise benutzte Holzschaufeln) und Holzgabeln sind in Grabbildern des Alten Reichs beim
 Dreschen und Worfeln dargestellt; kein Metall. Reibstein und Läufer aus Granit (selbst erzeugte Textur).
+
+Pflug und Hornjoch (selbst gebaut, `pflanzen.py`, `pflug_template`): hölzerner Hakenpflug mit Schar, zwei Griffen
+(Sterzen) und langer Deichsel; Hornjoch als gerader Holzbalken quer vor den Hörnern beider Rinder, mit hellen Stricken an
+den Hörnern festgebunden, die Deichsel mit Stricken an der Mitte des Balkens. Epochenprüfung: Grabbilder des Alten Reichs
+zeigen Rinderpaare mit einem an den Hörnern festgebundenen Balken vor einem hölzernen Hakenpflug; kein Metall, kein Rad,
+kein Leder mit Schnallen. Kais Hacke (Achet, `figuren.py`): Stiel und Blatt aus Holz im spitzen Winkel, mit Strick verbunden.
 
 Fundstücke „Heute wissen wir“ (selbst gebaut, `build_scene.py`): zwei geflochtene Körbe mit Nilerde und Wüstensand,
 Holzpfahl mit eingeritzten Flutmarken, Fußgängerbrücke über den Kanal aus zwei Baumstämmen mit Querbohlen
